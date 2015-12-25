@@ -1,0 +1,88 @@
+body {
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  font-family: "メイリオ","Meiryo","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック",Osaka,sans-serif;
+}
+
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+  display: block;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, div, p, ul, ol, li, dl, dt, dd, table, tr, thead, tbody, tfoot, th, td, header, footer, nav, article, aside, section, figure, figcaption {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+select, option, input, button, label, textarea {
+  font-size: 100%;
+  line-height: 1;
+}
+
+input {
+  vertical-align: middle;
+}
+
+table {
+  width: auto;
+  border-spacing: 0;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+th, td {
+  text-align: left;
+  vertical-align: top;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+strong,
+em,
+b {
+  font-style: normal;
+  font-weight: bold;
+}
+
+small {
+  font-style: normal;
+  font-size: 100%;
+}
+
+a {}
+
+a:hover,
+a:active {}
+
+
+img,
+a img {
+  border: none;
+}
+
+img {
+  line-height: 1;
+  vertical-align: top;
+}
+
+/* clearfix */
+.clearfix:after {
+  overflow: hidden;
+  clear: both;
+  display: block;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+  content: " ";
+}
+
+.clearfix {
+  zoom: 1;
+}
